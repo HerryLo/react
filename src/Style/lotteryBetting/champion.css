@@ -1,0 +1,226 @@
+#champion {
+  background: #fff;
+}
+.championFlex {
+  padding: 37px 30px 0;
+  box-sizing: border-box;
+}
+.championBox {
+  width: 210px;
+  height: 136px;
+  margin-bottom: 33px;
+}
+.championBox.championBox_2 {
+  width: 330px;
+}
+.championBox .championBox_info {
+  position: relative;
+  width: 210px;
+  height: 95px;
+  background: #F8F8F8;
+  text-align: center;
+}
+.championBox .championBox_info.on {
+  background: #FC5638;
+}
+.championBox .championBox_info.on p.p1 {
+  color: #fff;
+}
+.championBox .championBox_info.on p.p2 {
+  color: #fff;
+}
+.championBox .championBox_info.stop p.p1 {
+  color: #DCDCDC;
+  line-height: 95px;
+  padding: 0;
+}
+.championBox .championBox_info.stop .championStop {
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  width: 100px;
+  height: 63px;
+  background: url('../../Img/lotteryBetting/championStop.png') 0 0 no-repeat;
+  background-size: 100px 63px;
+}
+.championBox .championBox_info.fail p.p1 {
+  color: #DCDCDC;
+  line-height: 95px;
+  padding: 0;
+}
+.championBox .championBox_info.fail .championFail {
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  width: 100px;
+  height: 63px;
+  background: url('../../Img/lotteryBetting/championFail.png') 0 0 no-repeat;
+  background-size: 100px 63px;
+}
+.championBox .championBox_info p.p1 {
+  font-size: 30px;
+  color: #191919;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+.championBox .championBox_info p.p2 {
+  font-size: 26px;
+  color: #737373;
+}
+.championBox .championBox_info .championTop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 38px;
+  height: 38px;
+  line-height: 30px;
+  font-size: 22px;
+  color: #B89E68;
+  background: url('../../Img/lotteryBetting/championTop.png') 0 0 no-repeat;
+  background-size: 38px 38px;
+}
+.championBox p.p3 {
+  font-size: 24px;
+  color: #B9B9B9;
+  text-align: center;
+  padding-top: 10px;
+}
+.championBox.championBox_2 .championBox_info {
+  width: 330px;
+}
+/**/
+.championFooter {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.championFooter .div1 {
+  padding: 15px 0;
+  background: #F3F3F3;
+  border-top: 1px solid #E5E5E5;
+  border-bottom: 1px solid #E5E5E5;
+}
+.championFooter .div1 p.p1 {
+  font-size: 24px;
+  color: #999999;
+  text-align: center;
+}
+.championFooter .div1 p.p1 span {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  margin-left: 10px;
+  vertical-align: middle;
+  background: url('../../Img/lotteryBetting/iIcon.png') 0 0 no-repeat;
+  background-size: 28px 28px;
+}
+.championFooter .div1 p.p2 {
+  font-size: 28px;
+  color: #999999;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.championFooter .div1 p.p2 span {
+  color: #FC5638;
+}
+.championFooter .div2 {
+  position: relative;
+  height: 100px;
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 0 30px;
+}
+.championFooter .div2 .inptBox {
+  padding-top: 16px;
+}
+.championFooter .div2 .inptBox span {
+  font-size: 30px;
+  color: #191919;
+}
+.championFooter .div2 .inptBox input {
+  width: 176px;
+  height: 60px;
+  border: 2px solid rgba(153, 153, 153, 0.29);
+  border-radius: 6px;
+  margin: 0 15px;
+  text-align: center;
+  font-family: PingFang SC;
+  color: #191919;
+  font-size: 30px;
+  -webkit-appearance: none;
+}
+.championFooter .div2 .btnA_1 {
+  position: absolute;
+  top: 15px;
+  right: 30px;
+  display: block;
+  width: 345px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  background: #FDAA9B;
+  border-radius: 4px;
+  font-size: 32px;
+  color: rgba(255, 255, 255, 0.57);
+}
+.championFooter .div2 .btnA_2 {
+  position: absolute;
+  top: 15px;
+  right: 30px;
+  display: block;
+  width: 345px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  background: #FC5638;
+  border-radius: 4px;
+  font-size: 32px;
+  color: #fff;
+}
+/**/
+.championTab {
+  width: 100%;
+  height: 100px;
+  border-bottom: 1px solid #E8E8EA;
+  overflow: auto;
+}
+.championTab ul {
+  height: 60px;
+  padding: 0 12px;
+  margin-top: 20px;
+  width: 2150px;
+}
+.championTab ul li {
+  display: inline-block;
+  border: 1PX solid #E8E8EA;
+  border-radius: 4px;
+  font-size: 26px;
+  color: #AAAAB3;
+  margin: 0 12px;
+  padding: 13px 30px;
+}
+.championTab ul li.on {
+  border: 1PX solid #FC5638;
+  color: #FC5638;
+}
+/**/
+.tabUl {
+  width: 100%;
+  height: 86px;
+  background: #FC5638;
+}
+.tabUl li {
+  float: left;
+  width: 50%;
+  height: 86px;
+  font-size: 30px;
+  color: #FBB3A1;
+  text-align: center;
+  line-height: 86px;
+}
+.tabUl li.on {
+  color: #FFFFFF;
+  background: url('../../Img/lotteryBetting/championTab.png') center center no-repeat;
+  background-size: 185px 17px;
+}
